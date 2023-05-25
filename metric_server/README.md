@@ -1,4 +1,4 @@
-kubectl top node |sort -r -n -k 3 : Node별 CPU 사용율 
-kubectl top node |sort -r -n -k 4 : Node별 Memory 사용율
-kubectl top pods -A |sort -r -n -k 3 : Pod별 CPU 사용율 
-kubectl top pods -A |sort -r -n -k 4 : Pod별 Memory 사용율
+- kubectl top node |sort -r -n -k 3 : Node별 CPU 사용율 
+- kubectl top node |sort -r -n -k 4 : Node별 Memory 사용율
+- kubectl top pods -A |sort -r -n -k 3 : Pod별 CPU 사용율 
+- kubectl top pods -A |sort -r -n -k 4 : Pod별 Memory 사용율
